@@ -58,12 +58,12 @@ groupPanel = type=generic,timeout=10,script-path=https://raw.githubusercontent.c
 #必须修改的字段:你encode后的机场订阅链接
 
 #2-1：Nexitally
-#Sub_info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/sub_info_panel.js ,script-update-interval=0,argument=url=https%3A%2F%2Fapi.immtel.co%2FSubscription%2FSurge%3Fsid%3D7757%26token%3DUkqUx9c5PhE&title=𝐈𝐦𝐦𝐓𝐞𝐥𝐞𝐜𝐨𝐦&icon=link.icloud.fill&color=#FF4500
+Sub_info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/sub_info_panel.js ,script-update-interval=0,argument=url=https%3A%2F%2Fapi.immtel.co%2FSubscription%2FSurge%3Fsid%3D7757%26token%3DUkqUx9c5PhE&title=𝐈𝐦𝐦𝐓𝐞𝐥𝐞𝐜𝐨𝐦&icon=link.icloud.fill&color=#FF4500
 
 
 #2-1：Tenglong
 
-#Sub_info2 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/sub_info_panel.js ,script-update-interval=0,argument=url=https%3A%2F%2F9929.sds01.tk%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3Dd97eea78bc36a7248833c70fb3186fc7&title=𝐏𝐞𝐫𝐬𝐨𝐧𝐚𝐥&icon=link.icloud.fill&color=#FF4500
+Sub_info2 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/sub_info_panel.js ,script-update-interval=0,argument=url=https%3A%2F%2F9929.sds01.tk%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3Dd97eea78bc36a7248833c70fb3186fc7&title=𝐏𝐞𝐫𝐬𝐨𝐧𝐚𝐥&icon=link.icloud.fill&color=#FF4500
 
 
 
