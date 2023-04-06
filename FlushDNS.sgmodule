@@ -1,4 +1,5 @@
-
+#!name=Flush DNS 
+#!desc=DNS刷新
 [Script]
 
 #DNS刷新
