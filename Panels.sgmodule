@@ -45,7 +45,7 @@ nf_check = type=generic,timeout=5,script-path=https://gist.githubusercontent.com
 
 #Disney检测
 #必须更改的字段：group 填写需要显示的策略组名称
-Disney = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/fishingworld/something/main/groupPanel.js,argument=icon=4k.tv&color=#00ad45&group=Disney
+groupPanel = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/fishingworld/something/main/groupPanel.js ,argument=icon=4k.tv&color=#00ad45&group=𝗗𝗶𝘀𝗻𝗲𝘆
 
 #1.中国电信
 #telecom = type=http-request,script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/telecom.js,pattern=https://e.189.cn/store/user/package_detail.do,requires-body=1,max-size=0,timeout=10
@@ -78,10 +78,6 @@ Disney = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/f
 
 
 
-
-#5.策略组面板 可重复配置 注意修改相应字段
-#必须更改的字段：group 填写需要显示的策略组名称
-#groupPanel = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/fishingworld/something/main/groupPanel.js ,argument=icon=4k.tv&color=#00ad45&group=𝗗𝗶𝘀𝗻𝗲𝘆
 
 
 
@@ -116,9 +112,7 @@ YouTube_check = script-name=YouTube_check, title=YouTube 解锁检测, content=�
 nf_check = script-name=nf_check, title=nf+ 解锁检测, content=请刷新, update-interval=36000
 
 #Disney检测
-Disney = script-name=Disney, title=Disney 解锁检测, content=请刷新, update-interval=36000
-
-
+groupPanel= script-name=groupPanel,update-interval=5
 #1.中国电信
 #telecom = script-name=telecom,update-interval=3600
 
