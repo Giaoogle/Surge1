@@ -65,28 +65,8 @@ groupPanel = type=generic,timeout=10,script-path=https://raw.githubusercontent.c
 
 #Sub_info2 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/sub_info_panel.js ,script-update-interval=0,argument=url=https%3A%2F%2F9929.sds01.tk%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3Dd97eea78bc36a7248833c70fb3186fc7&title=𝐏𝐞𝐫𝐬𝐨𝐧𝐚𝐥&icon=link.icloud.fill&color=#FF4500
 
-#2-3
-
-#Sub_info3 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/sub_info_panel.js ,script-update-interval=0,argument=url=https%3A%2F%2F9929.sds01.tk%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3De695172f73e83610abbc8dc076209997&title=𝐏𝐞𝐫𝐬𝐨𝐧𝐚𝐥&icon=link.icloud.fill&color=#FF4500
 
 
-
-
-
-#3.网络信息
-#网络信息 = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/ipcheck.js
-
-
-
-
-
-
-
-#网络状态
-
-#net_info_ip = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/ventusoon/ventus/main/Panel/NetInfoPanel.js,script-update-interval=0
-
-#net-info-panel = script-path=https://raw.githubusercontent.com/ventusoon/ventus/main/Panel/Net-info-panel.js,type=generic,script-update-interval=0
 
 
 [Panel]
@@ -124,21 +104,11 @@ groupPanel= script-name=groupPanel,update-interval=5
 Sub_info = script-name=Sub_info,update-interval = 43200
 #2-2
 Sub_info2 = script-name=Sub_info2,update-interval = 43200
-#2-3
-#Sub_info3 = script-name=Sub_info3,update-interval = 43200
-#3网络信息
-#网络信息 = script-name=网络信息,title=网络信息,content=请刷新,style=info,update-interval=60
-
-#5.策略组面板 可重复配置 注意修改相应字段
-#groupPanel= script-name=groupPanel,update-interval=5
 
 
-#7.
 
-#网络状态
-#net-info-panel=title="网络状态",content="请刷新",style=info,script-name=net-info-panel
 
-#net_info_ip=title=网络状态,style=info,script-name=net_info_ip,update-interval=1
+
 
 
 [MITM]
