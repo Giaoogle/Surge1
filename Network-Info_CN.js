@@ -167,15 +167,15 @@ function getSSID() {
 }
 
 function getIP() {
-  const { v4, v6 } = $network;
+  const { IPv4, IPv6 } = $network;
   let info = [];
-  if (!v4 && !v6) {
+  if (!IPv4 && ! IPv6) {
     info = ['网路可能切换', '请手动刷新以重新获取 IP'];
   } else {
-    if (v4?.primaryAddress) info.push(`v4 : ${v4?.primaryAddress}`);
-    if (v6?.primaryAddress) info.push(`v6 : ${v6?.primaryAddress}`);
-    if (v4?.primaryRouter && getSSID()) info.push(`Router v4 : ${v4?.primaryRouter}`);
-    if (v6?.primaryRouter && getSSID()) info.push(`Router IPv6 : ${v6?.primaryRouter}`);
+    if (IPv4?.primaryAddress) info.push(`IPv4 : ${IPv4?.primaryAddress}`);
+    if (IPv6?.primaryAddress) info.push(`IPv6 : ${IPv6?.primaryAddress}`);
+    if (IPv4?.primaryRouter && getSSID()) info.push(`Router IPv4 : ${Ipv4?.primaryRouter}`);
+    if (IPv6?.primaryRouter && getSSID()) info.push(`Router IPv6 : ${IPv6?.primaryRouter}`);
   }
   info = info.join("\n");
   return info + "\n";
@@ -198,9 +198,9 @@ function getNetworkInfo(retryTimes = 5, retryInterval = 1000) {
       content:
         `[IP 地址]\n` +
         getIP() +
-        `节点 IP ${info.query}\n` +
-        `节点 ISP ${info.isp}\n` +
-        `节点位置 ${getFlagEmoji(info.countryCode)} | ${info.country} - ${info.city}`,
+        `节点 IP: ${info.query}\n` +
+        `节点 ISP: ${info.isp}\n` +
+        `节点位置: ${getFlagEmoji(info.countryCode)} | ${info.country} - ${info.city}`,
       icon: getSSID() ? 'wifi' : 'simcard',
       'icon-color': getSSID() ? '#005CAF' : '#F9BF45',
     });
@@ -209,8 +209,8 @@ function getNetworkInfo(retryTimes = 5, retryInterval = 1000) {
     if (String(error).startsWith("Network changed")) {
       if (getSSID()) {
         $network.wifi = undefined;
-        $network.v4 = undefined;
-        $network.v6 = undefined;
+        $network.IPv4 = undefined;
+        $network.IPv6 = undefined;
       }
     }
     // 判断是否还有重试机会
