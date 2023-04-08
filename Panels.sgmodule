@@ -34,6 +34,9 @@ TrafficStatistics = type=generic,timeout=10,script-path= https://raw.githubuserc
 #配置重载
 配置重载 = script-path=https://raw.githubusercontent.com/Giaoogle/Surge/main/Profile-Reload.js,type=generic
 
+#ChatGPT
+CFGPT = type=generic,timeout=6,script-path=https://raw.githubusercontent.com/Keywos/rule/key/JS/CFGPT.js
+
 
 #YouTube Premium解锁检测
 YouTube_check = type=generic,timeout=5,script-path=https://gist.githubusercontent.com/Hyseen/5ae36a6a5cb5690b1f2bff4aa19c766f/raw/youtube_premium_check.js
@@ -79,6 +82,9 @@ TrafficStatistics = script-name=TrafficStatistics,update-interval=1
 
 #配置重载
 配置重载 = title=配置重载,content=配置重载,style=info,script-name=配置重载,update-interval=-1
+
+#ChatGPT
+CFGPT = script-name=CFGPT,update-interval=-1
 
 #YouTube Premium解锁检测
 YouTube_check = script-name=YouTube_check, title=YouTube 解锁检测, content=请刷新, update-interval=36000
