@@ -174,7 +174,7 @@ function getIP() {
   } else {
     if (IPv4?.primaryAddress) info.push(`IPv4 : ${IPv4?.primaryAddress}`);
     if (IPv6?.primaryAddress) info.push(`IPv6 : ${IPv6?.primaryAddress}`);
-    if (IPv4?.primaryRouter && getSSID()) info.push(`Router IPv4 : ${Ipv4?.primaryRouter}`);
+    if (IPv4?.primaryRouter && getSSID()) info.push(`Router Ipv4 : ${Ipv4?.primaryRouter}`);
     if (IPv6?.primaryRouter && getSSID()) info.push(`Router IPv6 : ${IPv6?.primaryRouter}`);
   }
   info = info.join("\n");
