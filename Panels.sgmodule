@@ -35,7 +35,7 @@ TrafficStatistics = type=generic,timeout=10,script-path= https://raw.githubuserc
 配置重载 = script-path=https://raw.githubusercontent.com/Giaoogle/Surge/main/Profile-Reload.js,type=generic
 
 #ChatGPT
-CFGPT = type=generic,timeout=6,script-path=https://raw.githubusercontent.com/Keywos/rule/key/JS/CFGPT.js
+CFGPT = type=generic,timeout=6,script-path=https://raw.githubusercontent.com/Keywos/rule/key/JS/CFGPT.js,icon=slowmo&color=#FFD700&server=false
 
 
 #YouTube Premium解锁检测
