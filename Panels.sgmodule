@@ -44,7 +44,7 @@ groupPanel= script-name=groupPanel,update-interval=5
 
 #2.剩余流量
 
-Sub_info = script-name=Sub_info,update-interval = 43200
+#Sub_info = script-name=Sub_info,update-interval = 43200
 
 
 
@@ -105,7 +105,7 @@ groupPanel = type=generic,timeout=10,script-path=https://raw.githubusercontent.c
 #流量
 
 
-Sub_info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/sub_info_panel.js ,script-update-interval=0,argument=url=http%3A%2F%2F6969.sds01.tk%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D0a6ea7793298dcc297b37df6f6c87576&title=𝐏𝐞𝐫𝐬𝐨𝐧𝐚𝐥&icon=link.icloud.fill&color=#FF4500
+#Sub_info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/sub_info_panel.js ,script-update-interval=0,argument=url=http%3A%2F%2F6969.sds01.tk%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D0a6ea7793298dcc297b37df6f6c87576&title=𝐏𝐞𝐫𝐬𝐨𝐧𝐚𝐥&icon=link.icloud.fill&color=#FF4500
 
 
 
