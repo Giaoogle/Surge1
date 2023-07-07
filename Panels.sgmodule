@@ -43,15 +43,6 @@ nf_check = script-name=nf_check, title=nf+ 解锁检测, content=请刷新, upda
 
 #Disney检测
 groupPanel= script-name=groupPanel,update-interval=5
-#1.中国电信
-#telecom = script-name=telecom,update-interval=3600
-
-
-
-
-#2.剩余流量
-
-#Sub_info = script-name=Sub_info,update-interval = 43200
 
 
 
@@ -105,18 +96,8 @@ nf_check = type=generic,timeout=5,script-path=https://gist.githubusercontent.com
 #必须更改的字段：group 填写需要显示的策略组名称
 groupPanel = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/fishingworld/something/main/groupPanel.js ,argument=icon=4k.tv&color=#00ad45&group=𝗗𝗶𝘀𝗻𝗲𝘆
 
-#1.中国电信
-#telecom = type=http-request,script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/telecom.js,pattern=https://e.189.cn/store/user/package_detail.do,requires-body=1,max-size=0,timeout=10
 
 
-
-
-
-
-#流量
-
-
-#Sub_info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/sub_info_panel.js ,script-update-interval=0,argument=url=http%3A%2F%2F6969.sds01.tk%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D0a6ea7793298dcc297b37df6f6c87576&title=𝐏𝐞𝐫𝐬𝐨𝐧𝐚𝐥&icon=link.icloud.fill&color=#FF4500
 
 
 
