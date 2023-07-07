@@ -10,7 +10,7 @@
 
 [Panel]
 #NetSpeedtest
-NetSpeed = script-name=𝗡𝗲𝘁𝗦𝗽𝗲𝗲𝗱,update-interval=-1
+NetSpeed = script-name=NetSpeed,update-interval=-1
 
 
 #warp
