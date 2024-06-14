@@ -8,7 +8,7 @@
 NetSpeed = script-name=NetSpeed,update-interval=-1
 
 #ChatGPT
-#CFGPT = script-name=CFGPT,update-interval=-1
+CFGPT = script-name=CFGPT,update-interval=-1
 
 #DNS刷新
 FlushDNS = script-name=FlushDNS,update-interval=600
@@ -45,7 +45,7 @@ NetSpeed = type=generic,script-path=https://raw.githubusercontent.com/getsomecat
 net-info-panel.js=script-path=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/Network-Info/Moore/net-info-panel_CN.js,type=generic,timeout=30
 
 #ChatGPT
-#CFGPT = type=generic,timeout=6,script-path=https://raw.githubusercontent.com/Giaoogle/Surge/main/CFGPT.js,argument=icon=slowmo&icon-color=	#FFA500
+CFGPT = type=generic,timeout=6,script-path=https://raw.githubusercontent.com/Giaoogle/Surge/main/CFGPT.js,argument=icon=slowmo&icon-color=	#FFA500
 
 
 #DNS刷新
